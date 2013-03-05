@@ -1,0 +1,97 @@
+#whole{
+	width: 960px;
+	margin:0 auto;
+	}
+
+#nav li{
+	float: left;
+	list-style: none;
+	width: 162px;
+	height: 25px;
+	background-color: #F00;
+	text-align:center;
+	border:1px black solid;
+	margin: 0 10px;
+	}
+
+#logo{
+	clear: both;
+	}
+
+#logo img{
+	/*width: 100%;*/
+	width: 930px;
+	height: 250px;
+	border: #000 solid;
+	background-color:#000;
+	margin-top: 30px;
+	margin-left: 32px;
+	margin-bottom: 20px;
+	}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	}
+	
+h2 {
+	text-align: center;
+	}
+
+#information p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	}
+	
+#shoes img {
+	float: left;
+	width: 266px;
+	height: 175px;
+	border: #000 solid;
+	background-color: #000;
+	margin-left: 30px;
+	}
+	
+#shoes li{
+	list-style: none;
+	}
+
+#shop li{
+	float: left;
+	width: 150px;
+	height: 20px;
+	border: #000 solid;
+	background-color: #f00;
+	list-style: none;
+	margin-top: 20px;
+	text-align: center;
+	}
+
+#buynow1 {
+	margin-left: 95px;
+	margin-bottom: 50px;
+	}	
+
+#buynow2 {
+	margin-left: 145px;
+	margin-bottom: 50px;
+	}
+
+#buynow3 {
+	margin-left: 145px;
+	margin-bottom: 50px;
+	} 
+
+form {
+	clear: both;
+	border: #000 solid;
+	margin-bottom: 50px;
+	padding: 10px 30px;
+	}
+
+footer {
+	text-align: center;
+	}
