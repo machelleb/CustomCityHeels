@@ -32,11 +32,17 @@
 h1 {
 	text-align: center;
 	font-size: 3em;
+	font-family: "Qwigley";
 	}
 	
 h2 {
 	text-align: center;
+	font-family: "Petit Formal Script";
 	}
+	
+ h3 {
+ 	font-family: "Petit Formal Script";
+ 	}
 
 #information p {
 	width: 800px;
@@ -44,6 +50,7 @@ h2 {
 	text-align: center;
 	padding-left: 40px;
 	padding-bottom: 40px;
+	font-family: Sail;
 	}
 	
 #shoes img {
@@ -68,6 +75,7 @@ h2 {
 	list-style: none;
 	margin-top: 20px;
 	text-align: center;
+	font-family: "Bershire Swash";
 	}
 
 #buynow1 {
