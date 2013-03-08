@@ -4,6 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=deice-width, initial-scale=1, maximum-scale=1">
 	<title>CustomCityHeels</title>
+	<style type="text/css">
+		h2 {
+			margin-top: 100px;
+			}
+	</style>
+	
     <link rel="stylesheet" href="css/styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Molle:400italic' rel='stylesheet' type='text/css'>
@@ -35,37 +41,9 @@
 	</div>
 	</nav>
 	</header>
-    
-    <div id="logo">
-	<img src="images/longcurls.jpg" alt="Shine Time Heels" title="Shine Time Heels">
-    </div>
-    
-    <div id="information">
-    	<h2>Lorem ipsum dolor sit amet, consectetuer!</h2>
-    	<p>Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
-    	magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci 
-    	tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-    	Duis autem vel feugait <a href="shop.html">nulla facilisi.</a></p>
-	</div>
 	
-	<div id="shoes">
-	<h3>Featuring...</h3>
-    <ol>
-    	<li><img src="images/shoe.jpg" alt="Heels1" title="Heels1" id="heels1"></li>
-        <li><img src="images/images.jpeg" alt="Heels2" title="Heels2" id="heels2"></li>
-        <li><img src="images/11.jpg" alt="Heels3" title="Heels3" id="heels3"></li>
-    </ol>   
-    </div>    	
-
-	<div id="shop">
-	<ol>
-		<li id="buynow1"><a href="shop.html" class="button">Buy Now!</a></li>
-		<li id="buynow2"><a href="shop.html" class="button">Buy Now!</a></li>
-		<li id="buynow3"><a href="shop.html" class="button">Buy Now!</a></li>
-	</ol>
-	</div>
+	<h2>Contact Us</h2>
 	
-	<div id="newsletter">
 	<form method="get" action="mailto:machelle.burgin@gmail.com">
 		<h4>Sign up for Specials!</h4>
 		<div>
@@ -82,13 +60,28 @@
             <label for="email_address">Email Address</label>
             <input type="text" name="email_address" id="email_address"/>
         </div>
+        <div>
+            <label for="phone_number">Phone Number</label>
+            <input type="text" name="phone_address" id="phone_number"/>
+        </div>
          
+        <div>
+            <label for="additional_info">Services interested in</label>
+            <textarea rows="10" cols="20" name="additional_info" id="additional_info"></textarea>
+        </div> 
+    
+            <label for="contact_method">Best method of contact:</label>
+            <select name="contact_method" id="contact_method">
+                <option>Phone</option>
+                <option>Email</option>
+            </select>
+        
             <input type="submit" value="Submit" id="submit"/>
 	</form>
-		
+	
 	<footer>
 	&copy; CustomCityHeels
 	</footer>
-	</div>
+	
 </body>
 </html>
